@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+
+<!-- 
+
+    Creator: Wilton
+    File: index.html 
+    Date: 7/16/2022
+
+-->
+
+<html lang="en">
+    <head>
+        <title>Portfolio</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <meta name="description" content="I'm Wilton Cothran, A Proactive Computer Technology major (3.5 GPA) graduated from Greenville Technical College, with 2+ years of work experience in a professional environment. I can be relied upon to help your company achieve its goals.">
+        <meta name="keywords" content="Wilton, Cothran, Portfolio, System, Linux, Windows, Administrator">
+        <noscript><link rel="stylesheet" href="./assets/css/noscript.css"></noscript>
+        <link rel="icon" type="image/x-icon" href="./favicon.ico">
+        <link rel="stylesheet" href="./assets/css/all.css" />
+		<link rel="stylesheet" href="./assets/css/main.css" />
+    </head>
+
+
+<!-- Header & Navbar -->
+
+        <body>
+            <header>
+                <div class="container select-none">
+                    <div id="nav-left"><a href="https://cothran.me" target="_self">Cothran.me</a></div>
+                </div>
+            </header>
+
+<!-- noscript message -->
+
+            <video id="myVideo" autoplay="" muted="" loop="">
+                <source src="https://assets.mixkit.co/videos/preview/mixkit-networking-concept-loop-video-26773-large.mp4" type="video/mp4">
+            </video>
+            <div id="noscript-message">
+                <h3>For the best expierence,<br>please enable Javascript</h3>
+            </div>
+
+<!-- Banner -->
+
+                <section id="banner" class="select-none">
+                    <div id="banner-intro">
+                        <h2>Hi,&nbsp;<span>I'm Wilton</span></h2>
+                        <p>A&nbsp;<span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+                    </div>
+                    <p id="banner-more" class="bounce more">More About Me</p>
+                </section>
+
+<!-- More About Me & Questions -->
+
+                <section id="body-wrapper">
+                    <div id="terminal-window" class="select-none">
+                        <div id="terminal-nav-bar">
+                            <div id="upper-terminal-nav-bar">
+                                <i class="fa-solid fa-terminal"></i>
+                                <p>Terminal</p>
+                                <i class="fa-solid fa-x"></i>
+                            </div>
+                            <div id="lower-terminal-nav-bar">
+                                <ol>
+                                    <li>File</li>
+                                    <li>Edit</li>
+                                    <li>View</li>
+                                    <li>Search</li>
+                                    <li>Terminal</li>
+                                    <li>Help</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div onclick="typeWriter()" id="terminal-body" class="select-normal">
+                            <p>[wilton@localhost ~]$&nbsp;<span class="blink">whoami</span>&nbsp;</p>
+                            <p id="terminal-p"></p>
+                        </div>
+                    </div>
+                    <div id="browser-window" class="select-none">
+                        <div id="tab-bar">
+                            <div id="profile-tab">
+                                <img src="./favicon.ico" alt="favicon">
+                                <p>Wilton's Profile</p>
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                            <div id="browser-icons">
+                                <i class="fa-solid fa-minus"></i>
+                                <i class="fa-regular fa-square"></i>
+                                <i class="fa-solid fa-x"></i>
+                            </div>
+                        </div>
+
+                        <div id="profile">
+                            <div id="upper">
+                                <div id="pfp">
+                                    <img src="./images/wilton.png" alt="Wilton's profile picture">
+                                </div>
+                                <div id="info">
+                                    <div id="handle">
+                                        <h4>Wilton Cothran</h4>
+                                        <h5><i class="fa-solid fa-at"></i>WRC</h5>
+                                    </div>
+                                    <div id="bio">
+                                        <p>Hobbies:&nbsp;<span>Tinkering, Team-based Activities, Learning</span></p>
+                                        <p>Bio:&nbsp;<span>System Administrator with a strong passion for modern tech.</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="lower">
+                                <div id="stats">
+                                    <p class="stats-item">Joined:&nbsp;<span>December 2013</span></p>
+                                    <p class="stats-item">Birthday:&nbsp;<span>2001</span></p>
+                                    <p class="stats-item">Gender:&nbsp;<span>Male</span></p>
+                                </div>
+                                <div id="activity">
+                                    <div id="outer-activity">
+                                        <div id="profile-nav">
+                                            <div id="profile-nav1" class="media-nav-item selected">Posts</div>
+                                            <div id="profile-nav2" class="media-nav-item">Exposure</div>
+                                            <div id="profile-nav3" class="media-nav-item">Skills</div>
+                                        </div>
+                                        <div id="profile-content">
+                                            <div id="posts" class="">
+                                                <div class="post">
+                                                    <i class="fa-solid fa-thumbtack"><span>Pinned Message</span></i>
+                                                    <div class="post-date">
+                                                        <h4>Wilton Cothran&nbsp;<span><i class="icon fa-solid fa-at"></i>WRC&nbsp;<i class="icon fa-solid fa-circle"></i>&nbsp;July 16, 2022</span></h4>
+                                                        <i class="fa-solid fa-ellipsis"></i>
+                                                    </div>
+                                                    <div class="message select-normal">
+                                                        <p>Welcome to my portfolio page!<br>This is an interactive profile that highlights my skills and expierence.<br><br>Feel free to send me a message below!</p>
+                                                    </div>
+                                                </div>
+                                                <div class="post">
+                                                    <i class="fa-solid fa-thumbtack"><span>Pinned Message</span></i>
+                                                    <div class="post-date">
+                                                        <h4>Wilton Cothran&nbsp;<span><i class="icon fa-solid fa-at"></i>WRC&nbsp;<i class="icon fa-solid fa-circle"></i>&nbsp;July 16, 2022</span></h4>
+                                                        <i class="fa-solid fa-ellipsis"></i>
+                                                    </div>
+                                                    <div class="message select-normal">
+                                                        <p>Heres my LinkedIn profile <a href="https://www.linkedin.com/in/wilton-cothran/" target="_blank">https://www.linkedin.com/in/wilton-cothran/</a> feel free to reach out!<br><br>Thanks for your time!</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="exposure" class="hidden">
+                                                <h1>Education</h1>
+                                                <h2>Greenville Technical College<br>Greenville, SC</h2>
+                                                <h3>Associate in Applied Science (A.A.S.) Computer Technology</h3>
+                                                <ol>
+                                                    <li>GPA:&nbsp;<span class="text-style-1">3.5</span></li>
+                                                    <li>Relevant Coursework:&nbsp;<span class="text-style-1">Tech Support Concepts, Internet and Firewall Security, Relational Database, Internet Programming, Programming Logic and Design, LAN Network Server Tech, Linux System Administration</span></li>
+                                                    <li>Awards & Honors:&nbsp;<span class="text-style-1">President's List, Dean's List</span></li>
+                                                </ol>
+                                                <h1>Professional Expierence</h1>
+                                                <h2>DeepHealth<br>Greenville, SC</h2>
+                                                <h3>System Administrator, Oct 2022 - current</h3>
+                                                <ol class="text-style-1">
+                                                    <li>Responsible for effective provisioning, installation, configuration, operation, and maintenance of system
+                                                        hardware, software, and related infrastructure.</li>
+                                                    <li>Accountable for the infrastructure of a scalable cloud environment.</li>
+                                                    <li>Worked as a team with other system administrators to upgrade, maintain, and configure hardware and
+                                                        software running on the company's private cloud infrastructure.</li>
+                                                    <li>Responsible for the deployment, configuration, and administration of virtual machines & physical
+                                                        servers loaded with eRAD's PACS, RIS, and MIRTH software.</li>
+                                                    <li>Reported directly to the Director of IT Operations & Security.</li>
+                                                </ol>
+                                            </div>
+                                            <div id="skills" class="hidden">
+                                                <h1>Hard Skills</h1>
+                                                <ol class="text-style-1">
+                                                    <li>Palo Alto Administration</li>
+                                                    <li>Qumulo Administration</li>
+                                                    <li>Windows Administration</li>
+                                                    <li>Linux Administration</li>
+                                                    <li>Network Administration</li>
+                                                    <li>Hardware Technician</li>
+                                                </ol>
+                                                <h1>Soft Skills</h1>
+                                                <ol class="text-style-1">
+                                                    <li>Effective Communication</li>
+                                                    <li>Team Player</li>
+                                                    <li>High Integrity</li>
+                                                    <li>High Work Ethic</li>
+                                                    <li>Fast Learner</li>
+                                                </ol>
+                                                <h1>Operating Systems</h1>
+                                                <ol class="text-style-1">
+                                                    <li>Windows 7</li>
+                                                    <li>Windows 8</li>
+                                                    <li>Windows 10</li>
+                                                    <li>Windows Server 2012</li>
+                                                    <li>Windows Server 2016</li>
+                                                    <li>Windows Server 2019</li>
+                                                    <li>CentOS7</li>
+                                                    <li>Ubuntu</li>
+                                                    <li>Red Hat Enterprise Linux 5 (RHEL5)</li>
+                                                    <li>Red Hat Enterprise Linux 7 (RHEL7)</li>
+                                                    <li>Red Hat Enterprise Linux 8 (RHEL8)</li>
+                                                    <li>Proxmox</li>
+                                                </ol>
+                                                <h1>Additional Expierence With</h1>
+                                                <ol class="text-style-1">
+                                                    <li>Python</li>
+                                                    <li>Javascript</li>
+                                                    <li>IPSec VPNs</li>
+                                                    <li>Qumulo Storage</li>
+                                                    <li>Apache Web Server</li>
+                                                    <li>Cloudflare</li>
+                                                    <li>Hypervisors</li>
+                                                    <li>Microsoft SQL Servers</li>
+                                                    <li>DNS Servers</li>
+                                                    <li>Frontend Development</li>
+                                                    <li>RAID</li>
+                                                    <li>Dell Servers</li>
+                                                    <li>Server, Desktop & Laptop Hardware</li>
+                                                    <li>3D Design</li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+<!-- Find me elsewhere -->
+
+                    <div id="connect">
+                        <h1>Connect With Me</h1>
+                        <div class="icons">
+                            <i><a href="mailto:wilton@cothran.me" class="icon fa-solid fa-envelope"></a></i>
+                            <i><a href="https://twitter.com/WiltonCothran" target="_blank" rel="noreferrer" class="icon fa-brands fa-twitter"></a></i>
+                            <i><a href="https://www.linkedin.com/in/wilton-cothran/" target="_blank" rel="noreferrer" class="icon fa-brands fa-linkedin"></a></i>
+                            <i><a href="https://github.com/W-R-C" target="_blank" rel="noreferrer" class="icon fa-brands fa-github"></a></i>
+                            <i><a href="https://www.freecodecamp.org/wrc" target="_blank" rel="noreferrer" class="icon fa-brands fa-free-code-camp"></a></i>
+                        </div>
+                    </div>
+                </section>
+
+<!-- Call to action -->
+
+                <section id="cta" class="center content">
+                    <div>
+                        <h3 class="neon">Message Me</h3>
+                        <form action="https://formspree.io/f/mlezqrwl" method="POST">      
+                            <input name="name" type="text" class="feedback-input" placeholder="Name" required />   
+                            <input name="email" type="email" class="feedback-input" placeholder="Email" required />
+                            <input name="company" type="text" class="feedback-input" placeholder="Company (Optional)" />
+                            <textarea name="text" class="feedback-input" placeholder="Message" required></textarea>
+                            <input type="submit" value="SUBMIT"/>
+                        </form>
+                    </div>
+                </section>
+
+<!-- Footer & More Links --> 
+
+            <footer id="footer">
+                <div id="copyright">
+                    <div><p>Copyright &copy; 2022 Cothran.me. All Rights Reserved</p></div>
+                    <div>
+                        <ul class="icons">
+                            <li><a href="mailto:wilton@cothran.me" class="icon fa-solid fa-envelope"><span class="label">Email</span></a></li>
+                            <li><a href="https://twitter.com/WiltonCothran" target="_blank" rel="noreferrer" class="icon fa-brands fa-twitter"><span class="label">Twitter</span></a></li>
+                            <li><a href="https://www.linkedin.com/in/wilton-cothran/" target="_blank" rel="noreferrer" class="icon fa-brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                            <li><a href="https://github.com/W-R-C" target="_blank" rel="noreferrer" class="icon fa-brands fa-github"></a></li>
+                            <li><a href="https://www.freecodecamp.org/wrc" target="_blank" rel="noreferrer" class="icon fa-brands fa-free-code-camp"></a></li>
+                        </ul>
+                    </div>    
+                </div> 
+            </footer>
+
+<!-- Scripts -->
+
+            <script src="./assets/js/main.js"></script>
+
+        </body>
+</html>
