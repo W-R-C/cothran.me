@@ -920,20 +920,6 @@ header a {
     border-bottom: 1px solid rgba(255, 255, 255, 1);
 }
 
-@media (max-width:500px) {
-    header .container {
-        padding-left: 1em;
-        padding-right: 1em;
-    }
-    #nav-left a {
-        font-size: 14px;
-    }
-    header {
-        height: 8vh;
-        line-height: 8vh;
-    }
-}
-
 /* <------------------------------------------------------------------ Footer ------------------------------------------------------------------> */
 footer {
     width: 100vw;
@@ -1107,9 +1093,9 @@ ul.icons li:last-child {
     }
 }
 
-@media (max-width:780px) {
+@media (max-width:800px) {
     form {
-        margin: 15px
+        margin: 0 auto;
     }
     #lower {
         display: block;
@@ -1176,9 +1162,18 @@ ul.icons li:last-child {
     #connect > div {
         padding: 0;
     }
+    #cta {
+        padding-top: 1vh;
+    }
+    form {
+        max-width: 95vw;
+    }
 }
 
 @media (max-width:500px) {
+    #activity ol {
+        padding-left: 1px;
+    }
     #lower-terminal-nav-bar {
         padding-left: 5px;
     }
@@ -1192,13 +1187,84 @@ ul.icons li:last-child {
         display: grid;
     }
     #banner .more {
-        bottom: -5vh;
         letter-spacing: 0.1em;
     }
     .neon {
         font-size: 28px;
     }
-    
+    header .container {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    header {
+        height: 8vh;
+        line-height: 8vh;
+    }
+    header a {
+        font-size: 18px;
+    }
+    #banner-intro h2 {
+        font-size: 35px;
+    }
+    #banner-intro p {
+        font-size: 28px;
+    }
+    #copyright {
+        font-size: 14px;
+    }
+    #connect {
+        display: none;
+    }
+    #activity h1,h2 {
+        font-size: 21px !important;
+    }
+    #activity h3 {
+        font-size: 18px;
+        line-height: normal;
+    }
+    #profile-content li {
+        padding: 5px 0;
+        font-size: 14px;
+    }
+    #skills li {
+        padding: 0;
+    }
+    #pfp {
+        display: none;
+    }
+    #lower-terminal-nav-bar ol {
+        padding: 5px 0px 5px 0px;
+        font-size: 14px;
+    }
+    #upper-terminal-nav-bar i {
+        padding: 5px;
+    }
+    #terminal-body {
+        padding: 5px;
+        font-size: 14px;
+    }
+    #profile-tab p {
+        font-size: 12px;
+    }
+    #browser-icons i {
+        padding-left: 10px;
+        font-size: 14px;
+    }
+    #bio p {
+        font-size: 14px;
+    }
+    .neon {
+        font-size: 21px;
+    }
+    .feedback-input {
+        font-size: 14px;
+    }
+    textarea {
+        height: 250px;
+    }
+    [type="submit"] {
+        font-size: 21px;
+    }
 }
 
 @media (max-width:400px) {
@@ -1207,5 +1273,8 @@ ul.icons li:last-child {
     }
     #banner-intro p {
         font-size: 21px;
+    }
+    #copyright {
+        font-size: 12px;
     }
 }
