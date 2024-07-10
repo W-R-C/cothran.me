@@ -871,7 +871,6 @@ header {
 
 header .container {
     width: auto;
-    max-width: 1400px;
     text-align: center;
     margin: 0 auto;
     display: flex;
