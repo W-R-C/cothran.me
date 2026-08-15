@@ -1,5 +1,5 @@
 var i = 0;
-var txt = 'Proactive Computer Technology major (3.5 GPA) graduated from Greenville Technical College, with 2+ years of work experience in a professional environment. Aiming to leverage a proven knowledge of database design, network administration, and server administration skills to successfully fill the information technology role at your company. Frequently praised as hard-working by my peers, I can be relied upon to help your company achieve its goals.';
+var txt = 'Proactive Computer Technology major (3.5 GPA) graduated from Greenville Technical College, with 5+ years of work experience in a professional environment. Aiming to leverage a proven knowledge of database design, network administration, and server administration skills to successfully fill the information technology role at your company. Frequently praised as hard-working by my peers, I can be relied upon to help your company achieve its goals.';
 var speed = 10;
 function typeWriter() { // Terminal typewriting output
   if (i < txt.length) {
@@ -47,7 +47,7 @@ NavSkills.addEventListener('click', function(){ // Hightlight the selected tab o
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Systems Administrator", "Linux Administrator", "Windows Administrator", "superuser", "student", "solution"];
+const textArray = ["Infrastructure Engineer", "Linux Administrator", "Windows Administrator", "superuser", "student", "solution"];
 const typingDelay = 150;
 const erasingDelay = 50;
 const newTextDelay = 2000; // Delay between current and next text
